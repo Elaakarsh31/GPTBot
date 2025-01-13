@@ -48,3 +48,24 @@ Built with modular architecture using Python, Chainlit, and Firebase, making it 
    ```bash
    git clone https://github.com/yourusername/ai-chatbot.git
    cd ai-chatbot
+   ```
+2. Install Dependencies
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Set up environment variables: Create a .env file in the root directory and add:
+   ```plaintext
+   OPENAI_API_KEY=your_openai_api_key
+   GOOGLE_APPLICATION_CREDENTIALS=/path/to/your/firebase-service-account.json
+   PROJECT_ID=your_firebase_project_id
+   ```
+4. Run the app:
+   ```bash
+   chainlit run app.py -w
+   ```
+5. Open Chatbot in your browser at:
+   ```bash
+      http://localhost:8000 🌟
+   ```
+
+
